@@ -4,9 +4,9 @@
   "private": true,
   "homepage": "https://api.domain.org/",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "next start"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
